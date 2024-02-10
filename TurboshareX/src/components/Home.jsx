@@ -91,7 +91,7 @@ const Home = ({ text }) => {
           </button>
         </form>
       </div>
-      {isLoading && <h1>loading...</h1>}
+      
       <div className="text-container h-[34rem]">{displayText}</div>{" "}
       {/* Use displayText */}
     </div>
