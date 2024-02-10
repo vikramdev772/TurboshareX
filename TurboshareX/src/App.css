@@ -91,3 +91,11 @@ Customize the side scrollbar ::-webkit-scrollbar {
 .inner__container:hover{
   box-shadow: 0 0 10px rgb(33, 116, 232),0 0 15px rgb(28, 88, 239),0 0 25px rgb(28, 88, 239),0 0 40px rgb(28, 88, 239);
 }
+
+.MF{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  
+}

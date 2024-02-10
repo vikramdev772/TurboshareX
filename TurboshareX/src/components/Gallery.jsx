@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import baseURL from "../baseURL";
-
+import Chat from "./Chat";
 const Gallery = () => {
   const navigate = useNavigate();
   const token = localStorage.getItem('username');
@@ -78,6 +78,7 @@ const Gallery = () => {
     }
   };
   return (
+    <div className="MF">
     <div className="flex flex-col items-center justify-center min-h-[33rem] max-h-[33rem] bg-gray-800 m-4 p-3 rounded-2xl">
       <h1 className="text-4xl mb-8 text-white font-bold">Gallery</h1>
       <div className="flex flex-wrap justify-center gap-4 overflow-y-scroll min-h-[20rem] max-w-[44rem]">
@@ -131,7 +132,11 @@ const Gallery = () => {
             Upload Image
           </button>
         </div>
+
       </div>
+     
+    </div>
+    <Chat/>
     </div>
   );
 };
