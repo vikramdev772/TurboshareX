@@ -85,7 +85,7 @@ const Home = ({ text }) => {
               handleCode(e);
               handleClick();
             }}
-            className="bg-purple-500 text-white py-2 px-4 rounded-md focus:outline-none focus:ring focus:ring-purple-500 buttons"
+            className="bg-green500 text-white py-2 px-4 rounded-md focus:outline-none focus:ring focus:ring-green500 buttons"
           >
             Open
           </button>
